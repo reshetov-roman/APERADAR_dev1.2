@@ -92,6 +92,10 @@ $(document).ready(function($){
   $(".no_click_link").click(function (e) {
     e.preventDefault();
   });
+  
+   $(".watchlist-wrapper__pagination-item").click(function (e) {
+    e.preventDefault();
+  });
     
   
   // открываем фильтр и опять отслеживаем скролл
