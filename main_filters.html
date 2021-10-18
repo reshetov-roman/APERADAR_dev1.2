@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Стартовая страница</title>
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name = "format-detection" content = "telephone=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/lightbox2/lightbox.min.css">
+	<link rel="stylesheet" href="sass/main.css">
+</head>
+<body>
+
+<div class="site-wrap">
+
+	<header id="all" class="header">
+		<div class="container">
+			<div class="header-wrapper">
+				<div class="header-wrapper__burger">
+					<div class="header-wrapper__burger-icon">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="header-wrapper__logo">
+					<a href="#">APERADAR</a>
+				</div>
+				<nav class="header-wrapper__nav">
+					<div class="header-wrapper__close">
+						<i class="fa fa-times" aria-hidden="true"></i>
+					</div>
+					<ul class="header-wrapper__navigation">
+						<li class="header-wrapper__item"><a href="#">Holder Count Analytics</a></li>
+						<li class="header-wrapper__item"><a href="#">TOP HOLDER GAINERS</a></li>
+						<li class="header-wrapper__item header-wrapper__star">
+							<a href="#">MY WATCH LIST</a>
+							<i class="header-wrapper__star_icon">
+								<i class="fa fa-star-o" aria-hidden="true"></i>
+							</i>
+						</li>
+					</ul>
+				</nav>
+				<div class="header-wrapper__twitter">
+					<a href="https://twitter.com/ape_radar"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div>
+				<div class="header-wrapper__search-mobile">
+					<img src="img/icon/mob_search.png"/>
+				</div>
+				<div class="header-wrapper__search">
+					<input type="text" class="header-wrapper__search-control" placeholder="Search by ticker or contract">
+					<button class="header-wrapper__search-icon" type="submit">
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</button>
+				</div>
+				<div class="header-wrapper__user">
+					<div class="header-wrapper__login">
+						<a href="#">
+							<i class="header-wrapper__login-icon"><i class="fa fa-user-o" aria-hidden="true"></i></i>
+							<span>Roma90</span>
+						</a>
+					</div>
+					<div class="header-wrapper__exit">
+						<a href="#">Sign out</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- --------------------------------------------------------watchList-start------------ -->
+
+	<div class="watchlist">
+		<div class="container">
+			<h1>Holder Count Analytics</h1>
+				<div class="watchlist-wrapper">
+					<div class="watchlist-wrapper__filter">
+						<div class="watchlist-wrapper__options">
+							<div class="watchlist-wrapper__options-title">
+								Filter tokens by % increase in the number of holders
+							</div>
+							<div class="watchlist-wrapper__settings">
+								<div class="watchlist-wrapper__wrp">
+									<div class="watchlist-wrapper__group">
+										<div class="watchlist-wrapper__value watchlist-wrapper__min-holders">
+											<div class="watchlist-wrapper__ttl">Holders</div>
+											<input type="text">
+										</div>
+										<div class="watchlist-wrapper__value watchlist-wrapper__volume">
+											<div class="watchlist-wrapper__ttl">Volume</div>
+											<input type="text">
+										</div>
+										<div class="watchlist-wrapper__value watchlist-wrapper__max"><input type="text"></div>
+										<div class="watchlist-wrapper__value"><input type="text"></div>
+									</div>
+									<div class="watchlist-wrapper__group">
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl watchlist-wrapper__ttl-before">.</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">1h</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">2h</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">3h</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">4h</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">5h</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">6h</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+									</div>
+									<div class="watchlist-wrapper__group">
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">1d</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">2d</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">3d</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">4d</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">5d</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">6d</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">7d</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">8d</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+										<div class="watchlist-wrapper__element">
+											<div class="watchlist-wrapper__ttl">9d</div>
+											<div class="watchlist-wrapper__inp">
+												<input type="text">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="watchlist-wrapper__buttons">
+									<button type="reset" class="watchlist-wrapper__reset">Reset</button>
+									<button type="submit" class="watchlist-wrapper__find">Find</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="watchlist-wrapper__scroll">
+						<ul class="watchlist-wrapper__table">
+							<div class="fixed-scroll_parent">
+								<div class="fixed-scroll">
+									<li class="watchlist-wrapper__title">
+										<div class="watchlist-wrapper__title-number"><span>#</span></div>
+										<div class="watchlist-wrapper__title-name"><span>Name</span></div>
+										<div class="watchlist-wrapper__title-links"><span>Quick Links</span></div>
+										<div class="watchlist-wrapper__title-price"><span>Price</span></div>
+										<div class="watchlist-wrapper__title-change"><span>change (24H)</span></div>
+										<div class="watchlist-wrapper__title-volume"><span>Volume</span></div>
+										<div class="watchlist-wrapper__title-hold"><span>Holders</span></div>
+										<div class="watchlist-wrapper__title-hold-percent"><span>Holders Change in % (hours)</span></div>
+										<div class="watchlist-wrapper__title-hold-days"><span>Holders Change in % (days)</span></div>
+										<div class="watchlist-wrapper__title-star"><i class="fa fa-star-o" aria-hidden="true"></i></span></div>
+									</li>
+									<li class="watchlist-wrapper__subtitle">
+										<div class="watchlist-wrapper__subtitle-number"></div>
+										<div class="watchlist-wrapper__subtitle-name"></div>
+										<div class="watchlist-wrapper__subtitle-links"></div>
+										<div class="watchlist-wrapper__subtitle-price"></div>
+										<div class="watchlist-wrapper__subtitle-change"></div>
+										<div class="watchlist-wrapper__subtitle-volume"></div>
+										<div class="watchlist-wrapper__subtitle-hold"></div>
+										<div class="watchlist-wrapper__subtitle-hold-percent">
+											<div class="watchlist-wrapper__thing"><span>1H</span></div>
+											<div class="watchlist-wrapper__thing"><span>2H</span></div>
+											<div class="watchlist-wrapper__thing"><span>3H</span></div>
+											<div class="watchlist-wrapper__thing"><span>4H</span></div>
+											<div class="watchlist-wrapper__thing"><span>5H</span></div>
+											<div class="watchlist-wrapper__thing"><span>6H</span></div>
+										</div>
+										<div class="watchlist-wrapper__subtitle-hold-days">
+											<div class="watchlist-wrapper__thing"><span>1D</span></div>
+											<div class="watchlist-wrapper__thing"><span>2D</span></div>
+											<div class="watchlist-wrapper__thing"><span>3D</span></div>
+											<div class="watchlist-wrapper__thing"><span>4D</span></div>
+											<div class="watchlist-wrapper__thing"><span>5D</span></div>
+											<div class="watchlist-wrapper__thing"><span>6D</span></div>
+											<div class="watchlist-wrapper__thing"><span>7D</span></div>
+											<div class="watchlist-wrapper__thing"><span>8D</span></div>
+											<div class="watchlist-wrapper__thing"><span>9D</span></div>
+										</div>
+										<div class="watchlist-wrapper__subtitle-close"></div>
+									</li>
+								</div>
+							</div>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-trp">
+									<span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+							<li class="watchlist-wrapper__section">
+								<div class="watchlist-wrapper__section-integer"><span>1</span></div>
+								<div class="watchlist-wrapper__section-name"><span>Bitcoin (BTC)</span></div>
+								<div class="watchlist-wrapper__section-links">
+									<a href="#"><img src="img/icon/twiter_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name2_icon.png"></a>
+									<a href="#"><img src="img/icon/no_name3_icon.png"></a>
+								</div>
+								<div class="watchlist-wrapper__section-price"><span>$4,389</span></div>
+								<div class="watchlist-wrapper__section-change"><span>20,4%</span></div>
+								<div class="watchlist-wrapper__section-volume"><span>$87,838,374</span></div>
+								<div class="watchlist-wrapper__section-hold"><span>500</span></div>
+								<div class="watchlist-wrapper__section-hold-percent">
+									<div class="watchlist-wrapper__section-percent-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>2%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-percent-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-hold-days">
+									<div class="watchlist-wrapper__section-days-cell"><span>1%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>-3%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>5%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>10%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>7%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>16%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>23%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>100%</span></div>
+									<div class="watchlist-wrapper__section-days-cell"><span>1000%</span></div>
+								</div>
+								<div class="watchlist-wrapper__section-days-star-gold">
+									<span><i class="fa fa-star" aria-hidden="true"></i></span>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="watchlist-wrapper__paginator">
+						<div class="watchlist-wrapper__paginator-title">
+							<span>Pages:</span>
+						</div>
+						<ul class="watchlist-wrapper__pagination">
+							<li><a href="#" class="watchlist-wrapper__pagination-item active">1</a></li>
+							<li><a href="#" class="watchlist-wrapper__pagination-item">2</a></li>
+							<li><a href="#" class="watchlist-wrapper__pagination-item">3</a></li>
+							<li><a href="#" class="watchlist-wrapper__pagination-item">...</a></li>
+							<li><a href="#" class="watchlist-wrapper__pagination-item">23</a></li>
+						</ul>
+					</div>
+				</div>
+		</div>
+	</div>
+
+	
+    
+
+	<!-- --------------------------------------------------------watchList-end------------ -->
+
+	<footer class="footer">
+		<div class="footer-wrapper">
+			<div class="footer-wrapper__top">
+				<span class="footer-wrapper__message">You think this product can be improved? Write us a message.</span>
+				<a href="https://t.me/btcmaxima" class="footer-wrapper__btn">Contact</a>
+			</div>
+			<div class="footer-wrapper__bottom">
+				<div class="container">
+					<div class="footer-wrapper__wrp">
+						<div class="footer-wrapper__info">
+							<span class="footer-wrapper__title">&copy; 2021 All rights reserved</span>
+							<p class="footer-wrapper__desc">The goal of this tool is to track historical token holders
+								 information. Additionally, we try to bring together a community of analysts that 
+								 will join forces in finding new Uniswap gems.</p>
+						</div>
+						<ul class="footer-wrapper__social">
+							<li>
+								<a href="https://twitter.com/ape_radar">
+									<i class="footer-wrapper__icon-social">
+										<i class="fa fa-twitter" aria-hidden="true"></i>
+									</i>
+									<span>TWITTER</span>
+								</a>
+							</li>
+							<li>
+								<a href="mailto:info@aperadar.com">
+									<i class="footer-wrapper__icon-social">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</i>
+									<span>info@aperadar.com</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+
+<script src="libs/jquery-connect/jquery-3.6.0.min.js"></script>
+<script src="libs/lightbox2/lightbox.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
